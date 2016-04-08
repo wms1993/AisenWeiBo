@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="horizontal"
+              android:paddingLeft="@dimen/comm_h_margin"
+              android:paddingRight="@dimen/comm_h_margin">
+
+    <EditText
+        android:id="@+id/editQuery"
+        android:layout_width="0dip"
+        android:layout_height="48dip"
+        android:layout_weight="1"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="@string/hint_user_name"
+        android:imeOptions="actionSearch"
+        android:minWidth="170dip"
+        android:paddingLeft="16dip"
+        android:singleLine="true"
+        android:textColor="@color/comm_white"
+        android:textColorHint="#aaffffff"
+        android:textCursorDrawable="@null"
+        android:textSize="16sp"/>
+
+</LinearLayout>

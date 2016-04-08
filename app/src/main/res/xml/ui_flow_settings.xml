@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <org.aisen.weibo.sina.ui.widget.AisenListPreference
+        android:defaultValue="0"
+        android:dialogTitle="@string/settings_dt_pic_upload"
+        android:entries="@array/txtUpload"
+        android:entryValues="@array/prefValues"
+        android:key="pUploadSetting"
+        android:title="@string/settings_dt_pic_upload"/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pMidPicHint"
+        android:title="@string/settings_midpic_hint"/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pLargePhoto"
+        android:title="@string/settings_photo"/>
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pNonePic"
+        android:title="@string/settings_pic_none"/>
+
+    <org.aisen.weibo.sina.ui.widget.AisenListPreference
+        android:defaultValue="2"
+        android:dialogTitle="@string/settings_pic_mode"
+        android:entries="@array/picMode"
+        android:entryValues="@array/prefValues"
+        android:key="pPicMode"
+        android:title="@string/settings_pic_mode"/>
+
+    <org.aisen.weibo.sina.ui.widget.AisenListPreference
+        android:defaultValue="0"
+        android:dialogTitle="@string/settings_dt_status_count"
+        android:entries="@array/timelineCount"
+        android:entryValues="@array/prefValues"
+        android:key="pTimelineCount"
+        android:title="@string/settings_dt_status_count"/>
+
+    <org.aisen.weibo.sina.ui.widget.AisenListPreference
+        android:defaultValue="0"
+        android:dialogTitle="@string/settings_dt_cmt_count"
+        android:entries="@array/commentCount"
+        android:entryValues="@array/prefValues"
+        android:key="pCommentCount"
+        android:title="@string/settings_dt_cmt_count"/>
+
+</PreferenceScreen>
